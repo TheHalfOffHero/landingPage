@@ -38,7 +38,29 @@ body {
     padding: 90px;
 }
 button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
     background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 #header-img {
@@ -68,7 +90,7 @@ button {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 4px solid #3882F6;
+    border: 4px solid black;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
 }
@@ -85,6 +107,47 @@ button {
     overflow: hidden;
 }
 
-* {
-    border: 3px solid white;
+.random-quote {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+.random-quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.random-quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.newsletter-section {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+ 
+.newsletter-section-text h3 p{
+    text-align: left;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
 }
